@@ -38,15 +38,15 @@ def load_data(dirname):
             with open(textname, mode = 'r') as t:
                 numbers = [float(num) for num in t.read().split()]
                 #print(len(numbers[0]))
-                for i in range(len(numbers),25200):
-                    numbers.extend([0.000]) #300 frame 고정
+                for i in range(len(numbers),4200):
+                    numbers.extend([0.000])
             landmark_frame=[]
             row=0
-            for i in range(0,50):#총 100프레임으로 고정
+            for i in range(0,35):
                 landmark_frame.extend(numbers[row:row+84])
                 row += 84
             landmark_frame=np.array(landmark_frame)
-            landmark_frame=landmark_frame.reshape(-1,84)#2차원으로 변환(260*42)
+            landmark_frame=landmark_frame.reshape(-1,84)
             X.append(np.array(landmark_frame))
             Y.append(wordname)
     X=np.array(X)
@@ -108,8 +108,6 @@ def main(input_data_path,output_data_path,data_path):
 
     labels=load_label()
     print(labels)
-
-    #모델 사용
 
     xhat = x_test
     yhat = new_model.predict(xhat)
