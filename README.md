@@ -89,6 +89,11 @@ Open **model.ipynb** file on your Jupyter Notebook enviroment to train LSTM mode
 
 ## 4. Result
 
+Run 
+```
+p
+```
+
 Result is displayed in a GUI with Tkinter library
 
 - Predict a sign
