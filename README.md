@@ -23,7 +23,7 @@ You must change 3 files in "modified_mediapipe" folder like step 1 of [rabBit64'
 
 ## 2. Create your own training data
 
-Make **trainvideosset** for each sign language word in one folder. Run **build.py** file to get txt file and mp4 output videos with hand tracking.
+Make **trainvideosset** for each sign language word in one folder. Run **build.py** file to get txt file and mp4 output videos with hand tracking. You must have at least 150 videos per one word (one sign) to train
 
 ```
 python3 build.py --input_data_path=[INPUT_PATH] --output_data_path=[OUTPUT_PATH]
