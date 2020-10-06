@@ -105,3 +105,5 @@ Result is displayed in a GUI with Tkinter library
 
 ![alt](https://user-images.githubusercontent.com/51918703/94219168-6064cd80-ff10-11ea-97d2-8a9ff96c20d7.png)
 
+Watch [testng video](https://www.youtube.com/watch?v=sGEKajiANH0) for detail
+
