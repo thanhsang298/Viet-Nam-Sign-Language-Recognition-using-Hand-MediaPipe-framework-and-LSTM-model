@@ -19,7 +19,7 @@ You can see it details in [here](https://google.github.io/mediapipe/getting_star
 
 - Modify MediaPipe
 
-You must change 3 files in "modified_mediapipe" folder like step 1 of [rabBit64's](https://github.com/rabBit64/Sign-language-recognition-with-RNN-and-Mediapipe)
+After downloading original repo, you must look for 3 files in that with the same name in "modified_mediapipe" and replace them.
 
 ## 2. Create your own training data
 
